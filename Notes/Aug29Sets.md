@@ -4,14 +4,11 @@
 Languages and Automata
 
 - Decision Problems
-
-&nbsp;&nbsp; Functions that return t or f
+  - Functions that return t or f
 - Models of computation
-
-&nbsp;&nbsp; Depending on the computational power of the automata, some languages are computable and some aren't
+  - Depending on the computational power of the automata, some languages are computable and some aren't
 - Classifying "computability"
-
-&nbsp;&nbsp; Classify different types of languages/decision problems by how easy they are to compute
+  - Classify different types of languages/decision problems by how easy they are to compute
 
 Theory needs proofs to make claims
 - Formalization of a language
@@ -22,8 +19,9 @@ Theory needs proofs to make claims
 **Unordered** collection of objects
 
 Can be **heterogeneous** or contain other sets
-&nbsp;&nbsp; contain different types of objects
-&nbsp;&nbsp; should not include duplicates but can
+- contain different types of objects
+
+Should not include duplicates but can
 
 I.e.
 - A = {1,2,3}
