@@ -51,7 +51,7 @@ Language that reps this problem:
 |Q| = {0,5,10,15,20,25+}
 6 states we need to keep track of and 3 possible transitions for all of them
 
-Sigma: Q*Summation --> Q
+Sigma: Q*\Summation &rarr; Q
 
 # Languages
 What sorts of languages can we decide with a DFA?
@@ -70,9 +70,12 @@ How to prove a language is irregular:
 - upsidedownA <sub>DFA</sub> (M Cannot solve L)
 
 What sorts of languages are regular:
-- finite languages -> yes
-  - i.e. L = {0,01,010} --> E={0,1}
-- null? -> yes
+- finite languages &rarr; yes
+  - i.e. L = {0,01,010} &rarr; E={0,1}
+- null? &rarr; yes
 
+...
+## Closure
+Suppose A and B are regular languages. Prove that A union B is regular.
 
 
