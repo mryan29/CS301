@@ -73,3 +73,62 @@ Regular expression for set of all langages (binary strings) where every 0 has a 
 1* -> included in all of them
 
 There is no intersection or complement. However they don't increase the expressive power.
+
+# September 19th - Finishing up Regular Expressinos and starting Non-Regular Languages
+
+## Logistics
+Exam
+- 1 short answer
+- 2-3 questions of format you'll know
+- 2-3 questions from set of 6 (some selection)
+- pick one of 2 tricky questions
+- closed book, closed notes
+
+## Review
+All finite languages are regular
+
+Regular languages
+- dfa
+- nfa
+- regular expressions
+
+techniques (likely exam q's)
+- nfa &rarr; dfa
+- dfa minimization
+- regex to nfa
+- dfa to regex
+
+# DFA &rarr; Regex
+
+# GNFA
+NFA where transitions can be regex, not just chars
+
+want to reduce the nfa to start and accept state
+
+usually, add single start and accept state first
+
+# regex to nfa
+given a regex, how do we convert it to an nfa?
+regexes are inherently recursive
+prove by strong induction
+1. intro
+
+  let a language be a regular language if there is a dfa or nfa that decides it. ...
+  
+2. base case
+
+  - &epsilon; - empty string
+  
+  ∅ - empty language
+  
+  a - single character
+  
+3. inductive hypo
+  - union (A U B)
+    - suppose there exist two regex a and b which can be decided by the nfa M<sub>a</sub> and M<sub>b</sub>.
+  - concatenation (AB)
+    - suppose there exist two regex a and b which can be decided by the nfa M<sub>a</sub> and M<sub>b</sub>.
+  - kleene star (A*)
+4. inductive step
+  ...
+5. conclusion
